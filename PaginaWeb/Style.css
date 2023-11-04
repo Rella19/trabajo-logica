@@ -1,0 +1,205 @@
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+/*#menu-button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+}
+
+#menu-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+#menu-items li {
+    padding: 10px;
+    text-align: center;
+}
+
+#menu-items li a {
+    text-decoration: none;
+    color: #333;
+}*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #58656e;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1da1f2;
+    color: #f3f3f3;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#formulario input,
+#formulario textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    max-width: 400px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    image-orientation: 100px;
+}
+
+#publicar {
+    background-color: #1da1f2;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#pensamientos {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.oculta {
+    display: none;
+}
+.pensamiento {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+}
+.eliminar {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-input {
+    margin-bottom: 20px;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+}
+
+.post-text {
+    margin-top: 20px;
+}
+
+.like-button {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.comment-button {
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.buscador {
+    width: 200px;
+    margin: 0 auto;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.resultados {
+    margin-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.photo-upload-section {
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+}
+.feed {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+/* Esta parte es de hoteles*/
+h1 {
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#hotelLinks {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* FOTO GALERIA*/
+#foto{
+    height: 100px;
+    width: auto;
+    
+}

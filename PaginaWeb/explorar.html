@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Viajamigo</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header" id="Inicio">
+       <img src="bx-food-menu.svg" alt="" class="bx-food-menu">
+      <nav class="menu-navegacion">
+        <a href="index.html">Inicio</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="explorar.html">Explorar</a>
+        <a href="destacadas.html">Hoteles</a>
+        <a href="nosotros.html">Nosotros</a>
+     </nav>
+    <div class="conteinedor head">
+      <h1>Busca tu proximo detino</h1>
+      <p class="copy">Aprende con otros. </p>
+    </div>
+    </header>
+    <main>
+        <section id="explorador">
+            <h2>Explorar por Lugar</h2>
+            <select id="seleccionarLugar">
+                <option value="italia">Italia</option>
+                <option value="francia">Francia</option>
+                <option value="espana">España</option>
+                <!-- Agrega más opciones de lugares -->
+            </select>
+            <button id="buscar">Buscar</button>
+        </section>
+        <section id="resultados">
+            <!-- Aquí se mostrarán las reseñas y fotografías -->
+        </section>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>

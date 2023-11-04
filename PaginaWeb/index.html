@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Viajamigo</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header" id="Inicio">
+      <div class="navbar">
+        <img src="bx-food-menu.svg" alt="" class="bx-food-menu">
+      <nav class="menu-navegacion">
+        <a href="index.html">Inicio</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="explorar.html">Explorar</a>
+        <a href="destacadas.html">Hoteles</a>
+        <a href="nosotros.html">Nosotros</a>
+     </nav>
+    </div>
+    <div class="conteinedor head">
+      <h1>Simplificamos tu viaje</h1>
+      <p class="copy">Dejanos una duda si queres saber sobre tu siguiente destino o publica una reseña si ya viajaste . </p>
+    </div>
+    </header>
+     <main>
+        <div id="formulario">
+            <input type="text" id="nombre" placeholder="Nombre">
+            <input type="text" id="apellido" placeholder="Apellido">
+            <textarea id="pensamiento" placeholder="Escribe tu reseña de viaje"></textarea>
+            <button id="publi">Publicar</button>
+        </div>
+        <div id="pensamientos"><!-- Aquí se mostrarán los pensamientos de los usuarios -->
+            <div id="profile-picture-container">
+                <img id="imagen" src="userfoto.png" alt="" class="oculta">
+              </div>
+               
+                
+            <div class="pensamiento">
+                
+            </div>
+        
+            
+        </div>
+        <section class="service contenedor" id="inicio"></section>
+        <div class="h2 subtitulo">La informacion que te apuede ayudar en tus viajes</div>
+        <div class="contenedor-informacion">
+            <img src="location_airport_plane_travel_marker_navigation_gps_map_pointer_destination_icon_231705.png" alt="">
+            <div class="checlist-servicio">
+                <div class="service">
+                    <h3 class="n-service">Reseña Napoles</h3>
+                    <p>Si tienes la suerte de tener unos cuantos días para visitar Nápoles te recomendamos encarecidamente hacer algunas de estas escapadas:
+
+                        Pompeya
+                        Capri
+                        Costa Amalfitana
+                        Procida</p>
+                </div>
+                <div class="service">
+                    <h3 class="n-service">Reseña España</h3>
+                    <p>España es uno de los mejores países de todo el mundo en cuanto a sus redes ferroviarias, de metro, autopistas y carreteras.
+
+                        Lo mejor es que es muy sencillo acceder desde sus aeropuertos a todos las principales ciudades y tienes muchas opciones para hacerlo en transporte público, ya que cuenta con un excelente sistema de conexiones tanto urbanas como metropolitanas.
+                        
+                        El Renfe y el Ave son las empresas de trenes con las que es prácticamente posible de llegar a casi cualquier lugar de España e incluso de Europa.
+                        
+                        Estos trenes son modernos, cómodos y salen con suficiente frecuencia como para que puedas ahorrar tiempo entre destinos.
+                        
+                        Para sacar tus boletos puedes hacerlo por anticipado por las páginas web de cada empresa (suele convenir sacarlos antes para buscar precios) o directamente en la terminal antes de salir.
+                        
+                        Otra opción es contar con un pase de Eurail que incluya a España para poder moverte libremente en tren.</p>
+                </div>
+                <div class="service">
+                    <h3 class="n-service">Reseña Buenos Aires</h3>
+                    <p>Buenos Aires destaca por su cantidad de espacios verdes. Casi siempre bien cuidados. Es una ciudad ideal para conocer caminando. Las mejores zonas para hacerlo son Recoleta, Palermo, La Boca, San Telmo... entre otras. Vale la pena conocer los parques y dedicarles tiempo.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+     </main>
+     <script src="script.js"></script>
+</body>
+</html>
+
